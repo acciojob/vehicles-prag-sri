@@ -1,6 +1,4 @@
-# vehicles-prag-sri
-
-Vehicles
+# Vehicles
 
 The following project contains two subtasks:
 
