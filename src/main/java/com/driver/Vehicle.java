@@ -3,6 +3,7 @@ package com.driver;
 public class Vehicle {
 
     private String name;
+    private int capacity;
 
     public int getCurrentSpeed() {
         return currentSpeed;
@@ -26,6 +27,14 @@ public class Vehicle {
     public Vehicle(String name) {
         currentSpeed= 0;
         currentDirection= 0;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public int getCapacity(){
+        return getCurrentSpeed();
     }
 
     public void steer(int direction){
